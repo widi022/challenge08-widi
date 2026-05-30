@@ -1,8 +1,20 @@
 {
   "name": "company_profile",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/dKi29DX4) # Company Profile - React Assignment",
+  "homepage": "https://github.com/WPH-Bootcamp/challenge-8-widi022#readme",
+  "bugs": {
+    "url": "https://github.com/WPH-Bootcamp/challenge-8-widi022/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WPH-Bootcamp/challenge-8-widi022.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -10,8 +22,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "lucide-react": "^1.17.0",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^7.15.1",
+    "vite-plugin-svgr": "^5.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

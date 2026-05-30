@@ -1,4 +1,4 @@
-import React from "react";
+
 import AboutSection from "../components/sections/AboutSection";
 import ProjectsSection from "../components/sections/ProjectsSection.tsx";
 
