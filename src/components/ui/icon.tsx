@@ -2,7 +2,7 @@ import CloudIcon from "../../assets/icons/cloud.svg?react";
 import MobileIcon from "../../assets/icons/mobile.svg?react";
 import WebdevIcon from "../../assets/icons/webdev.svg?react";
 import UiuxIcon from "../../assets/icons/uiux.svg?react";
-import SoftwareIcon from "../../assets/icons/software.svg?react";
+import SoftwareIcon from "../../assets/icons/Software.svg?react";
 import ItinfraIcon from "../../assets/icons/itinfra.svg?react";
 import CybersecurityIcon from "../../assets/icons/cybersecurity.svg?react";
 import QaIcon from "../../assets/icons/qa.svg?react";
