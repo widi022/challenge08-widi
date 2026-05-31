@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from "react";
 import ContactModal from "../layout/ContactModal";
-import Button from "../ui/Button"; // ← button reusable lu
+import Button from "../ui/Button"; 
 
 export default function ContactSection() {
   const [modalType, setModalType] = useState<"success" | "error" | null>(null);
@@ -58,9 +58,6 @@ export default function ContactSection() {
               />
             </div>
 
-            {/* Checkbox services lu di sini */}
-
-            {/* Pake Button reusable lu */}
             <Button type="submit" variant="primary">
               Send
             </Button>

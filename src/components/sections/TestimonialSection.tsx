@@ -38,7 +38,7 @@ export default function TestimonialSection() {
                 ${idx === 1 ? "scale-105 border-orange-500 shadow-xl" : "scale-95 opacity-70"}
               `}
             >
-              {/* Kutip oranye */}
+              {/* Kutip orange */}
               <span className="absolute -top-4 left-6 text-7xl text-orange-500 font-serif">
                 "
               </span>
@@ -76,7 +76,7 @@ export default function TestimonialSection() {
           ))}
         </div>
 
-        {/* Dots klikable */}
+        {/* Dots 3 */}
         <div className="flex justify-center gap-2 mt-6">
           {testimonials.map((_: Testimonial, i: number) => (
             <button

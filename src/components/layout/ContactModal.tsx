@@ -14,16 +14,15 @@ export default function ContactModal({
 }) {
   const isSuccess = type === "success";
 
-  // 1. HOOK HARUS DI ATAS, sebelum return/early return
   useEffect(() => {
-    if (!type) return; // lock scroll cuma kalau modal kebuka
+    if (!type) return; 
     document.body.style.overflow = "hidden";
     return () => {
       document.body.style.overflow = "unset";
     };
-  }, [type]); // dependency type biar jalan pas modal kebuka/tutup
+  }, [type]); 
 
-  // 2. Early return pindah ke bawah useEffect
+  
   if (!type) return null;
 
   return (

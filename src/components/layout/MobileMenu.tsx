@@ -14,14 +14,14 @@ export default function MobileMenu({
 }: MobileMenuProps) {
   return (
     <>
-      {/* Backdrop - klik buat nutup */}
+      {/* Backdrop */}
       <div
         className={`fixed inset-0 z-40 bg-black backdrop-blur-sm transition-opacity duration-300 lg:hidden
         ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`}
         onClick={onClose}
       />
 
-      {/* Menu Panel - slide dari kanan */}
+      {/* Menu Panel */}
       <div
         className={`fixed top-0 right-0 h-full w-4/5 max-w-sm z-50 bg-black transition-transform duration-300 ease-in-out lg:hidden
         ${isOpen ? "translate-x-0" : "translate-x-full"}`}

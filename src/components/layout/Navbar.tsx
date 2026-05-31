@@ -23,8 +23,8 @@ export default function Navbar ({ links }: NavbarProps){
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray-200 dark:border-gray-800 bg-white/70 dark:bg-[#0B0B0B]/70 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        {/* Logo */}
 
+        {/* Logo */}
         <a href="#" className="flex items-center gap-2">
           {" "}
           <img src={logoWhite} alt="Company Logo" className="w-45% h-45% hidden dark:block" />

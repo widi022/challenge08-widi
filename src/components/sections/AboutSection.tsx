@@ -9,19 +9,19 @@ const industries = [
   {
     id: "Fintech" as IndustryTab,
     title: "Fintech",
-    desc: "We build secure, scalable, and compliant fintech solutions...",
+    desc: "We build secure, scalable, and compliant fintech solutions — from digital wallets to core banking systems — tailored to modern financial needs.",
     img: FintechImg,
   },
   {
     id: "E-Commerce" as IndustryTab,
     title: "E-Commerce",
-    desc: "Boost your online sales with fast, reliable platforms...",
+    desc: "Boost your online sales with fast, reliable platforms designed for seamless shopping experiences, inventory management, and payment integration.",
     img: EcomImg,
   },
   {
     id: "Healthcare" as IndustryTab,
     title: "Healthcare",
-    desc: "Empowering healthcare providers with digital solutions...",
+    desc: "Empowering healthcare providers with digital solutions that improve patient care, ensure data privacy, and streamline operational workflows.",
     img: HealthImg,
   },
 ];

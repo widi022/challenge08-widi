@@ -2,7 +2,7 @@ import { useState } from "react";
 import { processes } from "../../data/company";
 
 export default function ProcessSection() {
-  const [open, setOpen] = useState<number | null>(0); // buka step 1 default
+  const [open, setOpen] = useState<number | null>(0); 
 
   return (
     <section className="py-20 bg-white dark:bg-black text-black dark:text-white">

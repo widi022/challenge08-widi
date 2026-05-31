@@ -10,7 +10,7 @@ export const testimonials: Testimonial[] = [
     position: "Creative Director at Innovate Corp",
     image: Jhon,
     quote:
-      "Game-changer for our project. They turned it into reality efficiently and proactively.",
+     "Working with this team was a game-changer for our project. They understood our vision and turned it into reality efficiently and effectively.",
     rating: 5,
   },
   {
@@ -28,7 +28,7 @@ export const testimonials: Testimonial[] = [
     position: "Marketing Head at Tech Solutions",
     image: Emily,
     quote:
-      "The collaboration was seamless and exceeded expectations. Their expertise made the project successful.",
+      "The collaboration was seamless, and the results surpassed our expectations. Their expertise transformed our ideas into a successful product.",
     rating: 5,
   },
 ];

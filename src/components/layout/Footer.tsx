@@ -24,12 +24,11 @@ const FooterCTA: FC<FooterCTAProps> = ({
   return (
     <footer className="px-4 pb-8">
       <div className="max-w-7xl mx-auto">
-        {/* Box utama - ngikut tema */}
+        {/* Box utama */}
         <div
           className="bg-white dark:bg-neutral-900 border-gray-200 dark:border-neutral-800 
                         rounded-2xl p-6 md:p-10 border"
         >
-          {/* Baris atas: Text + Logo */}
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-8">
             <h3 className="text-2xl md:text-4xl font-bold text-black dark:text-white leading-tight">
               LET'S DISCUSS
@@ -107,11 +106,6 @@ const FooterCTA: FC<FooterCTAProps> = ({
             </div>
           </div>
         </div>
-
-        {/* Copyright bawah banget */}
-        <p className="text-center text-gray-500 dark:text-gray-600 text-xs mt-6">
-          © 2026 Your Company. All rights reserved.
-        </p>
       </div>
     </footer>
   );

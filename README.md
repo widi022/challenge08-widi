@@ -302,12 +302,12 @@ Notes: [Catatan tambahan jika ada - challenges, learning points, etc.]
 
 ### Checklist Sebelum Submit
 
-- [ ] All sections completed
-- [ ] Responsive di semua device
-- [ ] No console errors
-- [ ] Code di-push ke GitHub
-- [ ] Website deployed dan accessible
-- [ ] README updated (optional)
+- [✅] All sections completed
+- [✅] Responsive di semua device
+- [✅] No console errors
+- [✅] Code di-push ke GitHub
+- [✅] Website deployed dan accessible
+- [✅] README updated (optional)
 
 ## FAQ & Common Issues
 
